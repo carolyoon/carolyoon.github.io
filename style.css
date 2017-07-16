@@ -1,0 +1,46 @@
+body {
+	max-width: 100%;
+}
+nav {
+	padding: 20px;
+	border: solid black 1px;
+	width: 300px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+table {
+	margin-left: 200px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 30px;
+	font-family: sans-serif;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	width:	50%;
+	padding-bottom: 30px;
+}
+
+ul {
+	background-image: url("barstrong.jpg");
+	color: white;
+}
+
+.words {
+	font-family: "Georgia", serif;
+}
+
+.image {
+	border-radius: 15px;
+}
+
+.label {
+	font-size: 150%;
+	font-style: oblique;
+}
