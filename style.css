@@ -29,7 +29,11 @@ h1 {
 
 ul {
 	background-image: url("barstrong.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	color: white;
+	padding: 20px 5px 20px;
+	font-size: 2em;
 }
 
 .words {
@@ -43,4 +47,24 @@ ul {
 .label {
 	font-size: 150%;
 	font-style: oblique;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color:red;
+}
+
+.g-image {
+	width: 50%;
+}
+
+/*Responsive Code Below*/
+
+@media screen and (max-width: 500px) {
+	.g-image {
+		width: 100%;
+	}
 }
