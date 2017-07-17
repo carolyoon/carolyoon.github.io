@@ -51,5 +51,6 @@ ul {
 	#gallery-images {
 		max-height: 50%px;
 		max-width: 100%px
-		background-image: url();	}
+		background-image: url();	
+	}
 }
