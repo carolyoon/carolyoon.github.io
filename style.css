@@ -31,6 +31,7 @@ ul {
 	background-image: url("barstrong.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
+
 	color: white;
 	padding: 20px 5px 20px;
 	font-size: 2em;
@@ -66,5 +67,6 @@ a:visited {
 @media screen and (max-width: 500px) {
 	.g-image {
 		width: 100%;
+
 	}
 }
