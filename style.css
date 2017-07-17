@@ -29,9 +29,12 @@ h1 {
 
 ul {
 	background-image: url("barstrong.jpg");
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-width: 100%;
+
 	color: white;
+	padding: 20px 5px 20px;
+	font-size: 2em;
 }
 
 .words {
@@ -47,10 +50,23 @@ ul {
 	font-style: oblique;
 }
 
-@media screen and (min-width: 800px) {
-	#gallery-images {
-		max-height: 50%px;
-		max-width: 100%px
-		background-image: url();	
+a:link {
+	color: black;
+}
+
+a:visited {
+	color:red;
+}
+
+.g-image {
+	width: 50%;
+}
+
+/*Responsive Code Below*/
+
+@media screen and (max-width: 500px) {
+	.g-image {
+		width: 100%;
+
 	}
 }
